@@ -24,7 +24,7 @@ echo "Instalando rar, zip, etc."
 sudo apt-get install -y p7zip-rar p7zip-full unace unrar zip unzip sharutils rar uudeview mpack arj cabextract file-roller
 echo "/-----------------------------------/"
 
-echo "Instalando Prime y drivers envidia"
+echo "Instalando Prime y drivers nvidia"
 sudo apt-get install -y Prime
 sudo apt-get install -y nvidia-current
 echo "/-----------------------------------/"
@@ -33,7 +33,7 @@ echo "Agregados extras restringidos"
 sudo apt-get install -y ubuntu-restricted-extras
 echo "/-----------------------------------/"
 
-echo "habilitando h264 para f|irefox"
+echo "Habilitando h264 para firefox"
 echo "/-----------------------------------/"
 
 sudo apt-get update
